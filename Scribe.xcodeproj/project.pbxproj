@@ -12,6 +12,8 @@
 		C364EF8D1E5E55280013EA8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C364EF8B1E5E55280013EA8F /* Main.storyboard */; };
 		C364EF8F1E5E55280013EA8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C364EF8E1E5E55280013EA8F /* Assets.xcassets */; };
 		C364EF921E5E55280013EA8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C364EF901E5E55280013EA8F /* LaunchScreen.storyboard */; };
+		C364EF9A1E5E56F30013EA8F /* scribe.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C364EF991E5E56F30013EA8F /* scribe.ttf */; };
+		C364EF9F1E5E5A4D0013EA8F /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C364EF9E1E5E5A4D0013EA8F /* CircleButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		C364EF8E1E5E55280013EA8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C364EF911E5E55280013EA8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C364EF931E5E55280013EA8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C364EF991E5E56F30013EA8F /* scribe.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = scribe.ttf; sourceTree = "<group>"; };
+		C364EF9E1E5E5A4D0013EA8F /* CircleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +58,11 @@
 		C364EF861E5E55280013EA8F /* Scribe */ = {
 			isa = PBXGroup;
 			children = (
+				C364EF9D1E5E5A150013EA8F /* Model */,
+				C364EF9C1E5E5A0E0013EA8F /* View */,
+				C364EF9B1E5E5A060013EA8F /* Controller */,
 				C364EF871E5E55280013EA8F /* AppDelegate.swift */,
+				C364EF991E5E56F30013EA8F /* scribe.ttf */,
 				C364EF891E5E55280013EA8F /* ViewController.swift */,
 				C364EF8B1E5E55280013EA8F /* Main.storyboard */,
 				C364EF8E1E5E55280013EA8F /* Assets.xcassets */,
@@ -62,6 +70,28 @@
 				C364EF931E5E55280013EA8F /* Info.plist */,
 			);
 			path = Scribe;
+			sourceTree = "<group>";
+		};
+		C364EF9B1E5E5A060013EA8F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		C364EF9C1E5E5A0E0013EA8F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C364EF9E1E5E5A4D0013EA8F /* CircleButton.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		C364EF9D1E5E5A150013EA8F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +156,7 @@
 			files = (
 				C364EF921E5E55280013EA8F /* LaunchScreen.storyboard in Resources */,
 				C364EF8F1E5E55280013EA8F /* Assets.xcassets in Resources */,
+				C364EF9A1E5E56F30013EA8F /* scribe.ttf in Resources */,
 				C364EF8D1E5E55280013EA8F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,6 +168,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C364EF9F1E5E5A4D0013EA8F /* CircleButton.swift in Sources */,
 				C364EF8A1E5E55280013EA8F /* ViewController.swift in Sources */,
 				C364EF881E5E55280013EA8F /* AppDelegate.swift in Sources */,
 			);
